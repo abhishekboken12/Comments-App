@@ -104,6 +104,7 @@ class Comments extends Component {
   }
 
   render() {
+    const {commentList} = this.state
     return (
       <div className="app-container">
         <div className="content-container">
@@ -140,7 +141,7 @@ class Comments extends Component {
           </div>
           <hr />
           <div className="comment-cout-container">
-            <span className="counter">0</span>
+            <span className="counter">{commentList.length}</span>
             <p className="comment-descreption">Comments</p>
           </div>
           <ul className="comment-list">{this.commentItems()}</ul>
