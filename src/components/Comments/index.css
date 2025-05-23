@@ -1,0 +1,100 @@
+/* Write your CSS here */
+
+.app-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-container {
+  width: 80%;
+}
+
+.comment-img-content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment-content-container {
+  width: 45%;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 50px;
+  color: #1e293b;
+}
+
+.descreption {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #1e293b;
+}
+
+.name-input {
+  border: 1px solid #0284c7;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-bottom: 5px;
+  outline: none;
+  cursor: hover;
+}
+
+.comment-box {
+  border: 1px solid #0284c7;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-bottom: 5px;
+  outline: none;
+  cursor: hover;
+}
+
+.form-button {
+  border: 1px solid #94a3b8;
+  border-radius: 3px;
+  background-color: #94a3b8;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.comment-cout-container {
+  display: flex;
+  align-items: center;
+}
+
+.counter {
+  border: 1px solid #64748b;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-right: 5px;
+  background-color: #94a3b8;
+  border-radius: 3px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  width: auto;
+}
+
+.comment-descreption {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #334155;
+}
+
+.comment-list {
+  padding-left: 0px;
+}
